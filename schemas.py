@@ -47,3 +47,35 @@ class AppointmentResponse(BaseModel):
 
 class AppointmentStatusUpdate(BaseModel):
     status: str
+
+
+class OrderCreate(BaseModel):
+    customer_name: str
+    mobile: str
+    email: EmailStr
+    address: str
+    payment_method: str
+    items: str
+    total: str
+
+    @field_validator("customer_name", "mobile", "address", "items", "total")
+    @classmethod
+    def must_not_be_blank(cls, v: str) -> str:
+        if not v or not v.strip():
+            raise ValueError("This field cannot be blank")
+        return v.strip()
+
+
+class OrderResponse(BaseModel):
+    id: int
+    order_number: str
+    customer_name: str
+    mobile: str
+    email: str
+    address: str
+    payment_method: str
+    items: str
+    total: str
+    placed_at: datetime
+
+    model_config = {"from_attributes": True}

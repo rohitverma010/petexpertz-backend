@@ -176,3 +176,34 @@ def delete_appointment(appointment_id: int, db: Session = Depends(get_db)):
         raise HTTPException(status_code=404, detail="Appointment not found")
     db.delete(appointment)
     db.commit()
+
+
+# ---------------------------------------------------------------------------
+# Orders (cart checkout)
+# ---------------------------------------------------------------------------
+
+@app.post("/api/orders", response_model=schemas.OrderResponse, status_code=201, tags=["Orders"])
+def place_order(payload: schemas.OrderCreate, db: Session = Depends(get_db)):
+    order = models.Order(**payload.model_dump())
+    db.add(order)
+    db.commit()
+    db.refresh(order)
+    # order_number depends on the id assigned by the insert above, so it's
+    # backfilled in a second write rather than computed beforehand.
+    order.order_number = f"PEX{order.id:04d}"
+    db.commit()
+    db.refresh(order)
+    return order
+
+
+@app.get("/api/orders", response_model=List[schemas.OrderResponse], tags=["Orders"])
+def list_orders(db: Session = Depends(get_db)):
+    return db.query(models.Order).order_by(models.Order.placed_at.desc()).all()
+
+
+@app.get("/api/orders/{order_id}", response_model=schemas.OrderResponse, tags=["Orders"])
+def get_order(order_id: int, db: Session = Depends(get_db)):
+    order = db.query(models.Order).filter(models.Order.id == order_id).first()
+    if not order:
+        raise HTTPException(status_code=404, detail="Order not found")
+    return order
