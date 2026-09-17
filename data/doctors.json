@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Dr. Rajesh Kumar",
+    "qualification": "BVSc & AH, MVSc",
+    "experience": "12 Years",
+    "specialization": "Small Animal Medicine & Surgery",
+    "available_days": "Mon, Tue, Wed, Thu, Fri",
+    "avatar": "👨‍⚕️",
+    "rating": 4.9,
+    "patients": 850,
+    "bio": "Expert in diagnosing and treating small animals with a focus on preventive care."
+  },
+  {
+    "name": "Dr. Priya Sharma",
+    "qualification": "BVSc & AH",
+    "experience": "8 Years",
+    "specialization": "Veterinary Dermatology & Nutrition",
+    "available_days": "Mon, Wed, Fri, Sat",
+    "avatar": "👩‍⚕️",
+    "rating": 4.8,
+    "patients": 620,
+    "bio": "Specialized in skin conditions, allergies, and dietary management for pets."
+  },
+  {
+    "name": "Dr. Amit Singh",
+    "qualification": "BVSc & AH, PhD",
+    "experience": "15 Years",
+    "specialization": "Orthopedic & Soft Tissue Surgery",
+    "available_days": "Tue, Thu, Sat",
+    "avatar": "👨‍⚕️",
+    "rating": 5.0,
+    "patients": 1100,
+    "bio": "Senior surgeon with 500+ successful surgeries. Expert in complex orthopedic cases."
+  },
+  {
+    "name": "Dr. Neha Gupta",
+    "qualification": "BVSc & AH, MVSc",
+    "experience": "6 Years",
+    "specialization": "Exotic Animals & Avian Medicine",
+    "available_days": "Mon, Tue, Thu, Fri",
+    "avatar": "👩‍⚕️",
+    "rating": 4.7,
+    "patients": 480,
+    "bio": "Specialist in exotic pets, birds, and reptiles. Passionate about wildlife health."
+  }
+]

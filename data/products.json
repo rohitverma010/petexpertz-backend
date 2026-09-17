@@ -1,0 +1,242 @@
+{
+  "food": [
+    {
+      "brand": "Royal Canin",
+      "product": "Medium Adult",
+      "for": "Dogs",
+      "weight": "4 Kg",
+      "price": 2499,
+      "mrp": 2899,
+      "rating": 4.8,
+      "reviews": 1247,
+      "emoji": "🐕",
+      "badge": "Best Seller",
+      "badge_color": "#1E88E5",
+      "description": "Balanced nutrition for medium breed adult dogs (11–25 kg)"
+    },
+    {
+      "brand": "Pedigree",
+      "product": "Adult Chicken & Veggies",
+      "for": "Dogs",
+      "weight": "3 Kg",
+      "price": 899,
+      "mrp": 1099,
+      "rating": 4.5,
+      "reviews": 2341,
+      "emoji": "🦮",
+      "badge": "Popular",
+      "badge_color": "#4CAF50",
+      "description": "Complete nutrition with real chicken for adult dogs"
+    },
+    {
+      "brand": "Drools",
+      "product": "Puppy Starter",
+      "for": "Puppies",
+      "weight": "3 Kg",
+      "price": 749,
+      "mrp": 899,
+      "rating": 4.6,
+      "reviews": 986,
+      "emoji": "🐶",
+      "badge": "New",
+      "badge_color": "#FFB74D",
+      "description": "Specially formulated starter food for growing puppies"
+    },
+    {
+      "brand": "Whiskas",
+      "product": "Tuna & Salmon",
+      "for": "Cats",
+      "weight": "1.2 Kg",
+      "price": 699,
+      "mrp": 849,
+      "rating": 4.7,
+      "reviews": 1543,
+      "emoji": "🐱",
+      "badge": "Top Rated",
+      "badge_color": "#8E24AA",
+      "description": "Premium tuna and salmon blend for adult cats"
+    },
+    {
+      "brand": "Farmina",
+      "product": "N&D Grain Free",
+      "for": "Dogs & Cats",
+      "weight": "2 Kg",
+      "price": 1899,
+      "mrp": 2199,
+      "rating": 4.9,
+      "reviews": 567,
+      "emoji": "🐾",
+      "badge": "Premium",
+      "badge_color": "#E53935",
+      "description": "Natural & delicious grain-free premium nutrition"
+    }
+  ],
+  "medicines": [
+    {
+      "brand": "Bayer",
+      "product": "Drontal Plus Dewormer",
+      "for": "Dogs",
+      "weight": "6 Tablets",
+      "price": 450,
+      "mrp": 550,
+      "rating": 4.7,
+      "reviews": 892,
+      "emoji": "💊",
+      "badge": "Vet Recommended",
+      "badge_color": "#1E88E5",
+      "description": "Broad-spectrum dewormer for roundworm, tapeworm & hookworm"
+    },
+    {
+      "brand": "Frontline",
+      "product": "Plus Spot-On",
+      "for": "Dogs & Cats",
+      "weight": "3 Pipettes",
+      "price": 899,
+      "mrp": 1099,
+      "rating": 4.6,
+      "reviews": 1120,
+      "emoji": "🧴",
+      "badge": "Best Seller",
+      "badge_color": "#4CAF50",
+      "description": "Fast-acting flea & tick protection, waterproof formula"
+    },
+    {
+      "brand": "Zoetis",
+      "product": "Amoxicillin 250mg",
+      "for": "Dogs & Cats",
+      "weight": "10 Tablets",
+      "price": 320,
+      "mrp": 400,
+      "rating": 4.5,
+      "reviews": 410,
+      "emoji": "💉",
+      "badge": "Prescription",
+      "badge_color": "#E53935",
+      "description": "Broad-spectrum antibiotic for bacterial infections (vet prescription required)"
+    },
+    {
+      "brand": "Virbac",
+      "product": "Rimadyl Pain Relief",
+      "for": "Dogs",
+      "weight": "20 Tablets",
+      "price": 650,
+      "mrp": 780,
+      "rating": 4.8,
+      "reviews": 305,
+      "emoji": "🩹",
+      "badge": "Prescription",
+      "badge_color": "#E53935",
+      "description": "NSAID pain & inflammation relief for post-surgery & arthritis"
+    },
+    {
+      "brand": "Himalaya",
+      "product": "Liv.52 Pet Tonic",
+      "for": "Dogs & Cats",
+      "weight": "100 ml",
+      "price": 280,
+      "mrp": 340,
+      "rating": 4.4,
+      "reviews": 560,
+      "emoji": "🌿",
+      "badge": "Herbal",
+      "badge_color": "#43A047",
+      "description": "Liver support tonic to boost appetite and digestion"
+    },
+    {
+      "brand": "Petkin",
+      "product": "Vitamin & Calcium Syrup",
+      "for": "Puppies & Kittens",
+      "weight": "200 ml",
+      "price": 399,
+      "mrp": 499,
+      "rating": 4.6,
+      "reviews": 730,
+      "emoji": "🍯",
+      "badge": "Growth Support",
+      "badge_color": "#FFB74D",
+      "description": "Essential vitamins & calcium for healthy bone growth"
+    }
+  ],
+  "essentials": [
+    {
+      "name": "Adjustable Collar",
+      "category": "Accessories",
+      "price": 299,
+      "mrp": 399,
+      "emoji": "📿",
+      "badge": "Trending",
+      "badge_color": "#1E88E5",
+      "description": "Soft padded adjustable collar for all breeds"
+    },
+    {
+      "name": "Retractable Leash",
+      "category": "Accessories",
+      "price": 599,
+      "mrp": 799,
+      "emoji": "🔗",
+      "badge": "Popular",
+      "badge_color": "#4CAF50",
+      "description": "5-metre retractable leash with ergonomic grip"
+    },
+    {
+      "name": "Pet Shampoo",
+      "category": "Grooming",
+      "price": 349,
+      "mrp": 449,
+      "emoji": "🧴",
+      "badge": "Natural",
+      "badge_color": "#43A047",
+      "description": "Natural ingredients shampoo for sensitive skin"
+    },
+    {
+      "name": "Interactive Toys",
+      "category": "Toys",
+      "price": 449,
+      "mrp": 599,
+      "emoji": "🎾",
+      "badge": "Fun",
+      "badge_color": "#FFB74D",
+      "description": "Set of 3 interactive toys for mental stimulation"
+    },
+    {
+      "name": "Orthopedic Pet Bed",
+      "category": "Bedding",
+      "price": 1299,
+      "mrp": 1799,
+      "emoji": "🛏️",
+      "badge": "Comfort",
+      "badge_color": "#8E24AA",
+      "description": "Memory foam orthopedic bed for joint support"
+    },
+    {
+      "name": "Steel Feeding Bowls",
+      "category": "Feeding",
+      "price": 399,
+      "mrp": 499,
+      "emoji": "🥣",
+      "badge": "Durable",
+      "badge_color": "#039BE5",
+      "description": "Set of 2 anti-slip stainless steel food bowls"
+    },
+    {
+      "name": "Detangling Comb",
+      "category": "Grooming",
+      "price": 249,
+      "mrp": 349,
+      "emoji": "🪮",
+      "badge": "Essential",
+      "badge_color": "#F4511E",
+      "description": "Professional detangling comb for all coat types"
+    },
+    {
+      "name": "Travel Carrier Bag",
+      "category": "Travel",
+      "price": 1899,
+      "mrp": 2499,
+      "emoji": "👜",
+      "badge": "Must Have",
+      "badge_color": "#FB8C00",
+      "description": "Airline-approved soft-sided travel carrier bag"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "icon": "🩺",
+    "title": "Pet Checkup",
+    "description": "Comprehensive full-body health examination to detect issues early and keep your pet in peak condition.",
+    "price": "Starting ₹500",
+    "color": "#1E88E5"
+  },
+  {
+    "icon": "💉",
+    "title": "Vaccination",
+    "description": "Complete vaccination programs for puppies, kittens and adult pets to protect against deadly diseases.",
+    "price": "Starting ₹800",
+    "color": "#4CAF50"
+  },
+  {
+    "icon": "✂️",
+    "title": "Grooming",
+    "description": "Professional grooming with bath, haircut, nail trimming, ear cleaning and coat treatment.",
+    "price": "Starting ₹1,200",
+    "color": "#FFB74D"
+  },
+  {
+    "icon": "🔬",
+    "title": "Pet Surgery",
+    "description": "Advanced surgical procedures performed by experienced veterinary surgeons in a fully sterile environment.",
+    "price": "Starting ₹5,000",
+    "color": "#E53935"
+  },
+  {
+    "icon": "🦷",
+    "title": "Dental Care",
+    "description": "Complete dental examination, professional cleaning and treatment for your pet's oral health.",
+    "price": "Starting ₹1,500",
+    "color": "#8E24AA"
+  },
+  {
+    "icon": "🚨",
+    "title": "Emergency Care",
+    "description": "24/7 emergency veterinary services for critical and life-threatening conditions around the clock.",
+    "price": "Starting ₹2,000",
+    "color": "#F4511E"
+  },
+  {
+    "icon": "🪱",
+    "title": "Deworming",
+    "description": "Regular deworming treatments to protect your pet from internal parasites and maintain their health.",
+    "price": "Starting ₹300",
+    "color": "#039BE5"
+  },
+  {
+    "icon": "🥗",
+    "title": "Nutrition Advice",
+    "description": "Expert dietary consultation to ensure your pet gets the right nutrition for their breed and age.",
+    "price": "Starting ₹400",
+    "color": "#43A047"
+  },
+  {
+    "icon": "🏠",
+    "title": "Pet Boarding",
+    "description": "Safe and comfortable boarding facility with 24/7 care, feeding, and supervision for your beloved pet.",
+    "price": "₹800 / day",
+    "color": "#FB8C00"
+  }
+]

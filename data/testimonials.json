@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Priya Sharma",
+    "location": "Zirakpur",
+    "pet": "Labrador — Bruno",
+    "rating": 5,
+    "review": "PetExpertz Clinic is truly amazing! Dr. Rajesh saved my Bruno's life during an emergency at 2 AM. The staff is incredibly caring and professional. Highly recommend this clinic to every pet owner!",
+    "date": "March 2024",
+    "avatar": "👩"
+  },
+  {
+    "name": "Arjun Mehta",
+    "location": "Chandigarh",
+    "pet": "Persian Cat — Luna",
+    "rating": 5,
+    "review": "Best vet clinic in the region! My Luna was always terrified of vets but the team here made her feel so comfortable. The grooming services are absolutely top-notch.",
+    "date": "April 2024",
+    "avatar": "👨"
+  },
+  {
+    "name": "Sunita Verma",
+    "location": "Panchkula",
+    "pet": "Golden Retriever — Max",
+    "rating": 5,
+    "review": "Dr. Amit performed a complex surgery on my Max and the results were incredible. Professional team, modern equipment, and genuine love for animals. Couldn't be happier!",
+    "date": "February 2024",
+    "avatar": "👩"
+  },
+  {
+    "name": "Rohit Kumar",
+    "location": "Mohali",
+    "pet": "Beagle — Buddy",
+    "rating": 4,
+    "review": "Great experience overall. Buddy's vaccinations are always on schedule and the doctors explain everything patiently. Very affordable prices compared to other clinics in the area.",
+    "date": "May 2024",
+    "avatar": "👨"
+  },
+  {
+    "name": "Kavita Patel",
+    "location": "Zirakpur",
+    "pet": "Siamese Cat — Milo",
+    "rating": 5,
+    "review": "I've been bringing Milo here for 3 years now. Dr. Neha's nutrition advice has completely transformed his health. The boarding facility is clean, safe and excellent!",
+    "date": "January 2024",
+    "avatar": "👩"
+  }
+]
